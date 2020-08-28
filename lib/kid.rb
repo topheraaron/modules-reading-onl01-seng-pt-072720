@@ -15,3 +15,8 @@ end
 class Kid
   extend MetaDancing
 end
+
+class Kid
+  extend FancyDance::ClassMethods
+  include FancyDance::InstanceMethods
+end
